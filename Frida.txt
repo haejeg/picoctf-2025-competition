@@ -1,0 +1,13 @@
+# Frida commands used
+
+### Auto generate handlers
+
+frida-trace -i "*" -n bininst1.exe 
+
+### Attach to process
+
+frida -n bininst1.exe
+
+### spawn and trace
+
+frida-trace -f "C:\Users\haejeg\Documents\GitHub\GenAI---CodeDex\bininst1.exe"

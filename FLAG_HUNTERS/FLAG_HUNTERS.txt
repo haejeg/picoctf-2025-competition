@@ -1,0 +1,7 @@
+;RETURN [x] <- returns the chorus starting from line x of that chorus
+
+;END <- stops program
+
+;REFRAIN <- new paragraph
+
+This exploit is possible because the python program searches for keyword ';' as a line separator.
